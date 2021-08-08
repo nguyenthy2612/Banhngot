@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+.web
+{
+	width: 1333px;
+	height:100%;
+	background-color:bisque;
+}
+
+
+.firstpage
+{
+	width: 1333px;
+	height: 100%;
+	background-color: bisque;
+}
+
+.menubar
+{
+	width:1333px;
+	height:150px;
+	background-color:bisque;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.ovuong1
+{
+	width: 25%;
+	height: 150px;
+	background-color: transparent;
+	float: left;
+	margin: 1%;
+	
+}
+
+.thanhmenu
+{
+	width: 100%;
+	height: 50px;
+	background-color:darksalmon;
+	font-family: "Helvetica Neue", Helvetica,;
+	
+	
+}
+
+.thanhmenu ul
+{
+	list-style: none;
+}
+
+.thanhmenu ul li
+{
+	float: left;
+	padding: 18px 10px 15px 43px;
+	position: relative;
+	height: 40px;
+	
+}
+
+.thanhmenu ul li a
+{
+	text-decoration: none;
+}
+
+.thanhmenu ul li:hover
+{
+	background-color:burlywood;
+	height: 25px;
+
+}
+
+
+.thanhmenu ul li ul
+{ 
+position: absolute;
+	left: 0px;
+	top: 46px;
+	visibility: hidden;
+	
+}
+
+
+.thanhmenu ul li ul li
+{ 
+	width: 100px;
+	background-color:darksalmon;
+	
+}
+
+
+.thanhmenu ul li:hover ul
+{ 
+	visibility: visible;
+	
+	
+}
+
+.search
+{
+	width: 150px;
+	height: 40px;
+	float: left; 
+}
+
+
+input {
+    width:150px;
+    height: 40px;
+	float: left;
+	margin: 5px 120px 5px 60px; 
+	
+	
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background-color:darksalmon;
+	display: flex;
+	justify-content: center;
+	float:left;
+	margin: -45px 100px 10px 218px;  
+}
+
+
+#slideshow 
+{
+   overflow: hidden;
+     height: 500px;
+    width: 1333px;
+   margin: 0 auto;
+}
+.slide-wrapper
+{
+     width: 5332px;
+     -webkit-animation: slide 5s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite;
+}
+.slide
+{
+   float: left;
+   height: 500px;
+   width: 1333px;
+}
+@-webkit-keyframes slide 
+{
+   20% {margin-left: 0px;}
+   30% {margin-left: -1333px;}
+   50% {margin-left: -1333px;}
+   60% {margin-left: -2666px;}
+   80% {margin-left: -2666px;}
+ }
+
+/* MẪU BÁNH NỔI BẬT */
+.tieude
+{
+	font-family: Helvetica, Arial;
+	width: 1333px;
+	height: 100px;
+	background-color: bisque;
+	color:brown;
+	display: flex;
+	justify-content: center;
+}
+
+.ndung
+{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.ndung1
+{
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color:darksalmon;
+	border-radius: 30px;
+}
+
+.ndung2
+{
+    width: 25%;
+    height: 90%;
+    background-size: cover;
+	background-image: url("../images/cap1.jpg");
+    float: left;
+    margin: 20px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: width 2s;
+    position: relative;
+}
+
+.ndung3
+{
+    width: 25%;
+    height: 90%;
+    background-image: url("../images/ma1.jpg");
+    background-size: cover;
+    margin: 20px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: width 2s;
+	position: relative;
+}
+
+.ndung4
+{
+    width: 25%;
+    height: 90%;
+    background-image: url("../images/do1.jpg");
+    background-size: cover;
+    margin: 20px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: width 2s;
+	position: relative;
+}
+
+.ndung5
+{
+    width: 25%;
+    height: 90%;
+    background-image: url("../images/bi2.jpg");
+    background-size: cover;
+    margin: 20px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: width 2s;
+	position: relative;
+}
+
+
+.ndung2:hover .overlay {
+  opacity: 0.75;
+}
+.ndung3:hover .overlay {
+  opacity: 0.75;
+}
+.ndung4:hover .overlay {
+  opacity: 0.75;
+}
+
+.ndung5:hover .overlay {
+  opacity: 0.75;
+}
+
+/* MẪU BÁNH TRUNG THU */
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.ndung6 
+{
+  position: relative;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+	background-image: url(" ../images/thu3.jpg");
+    float: left;
+    margin: 20px 20px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: width 2s;
+}
+
+.ndung7 
+{
+  position: relative;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+	background-image: url( "../images/thu1.jpg");
+    float: left;
+    margin:  20px 20px 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: width 2s;
+}
+
+.ndung8  
+{
+  position: relative;
+    width: 270px;
+    height:270px;
+    background-size: cover;
+	background-image: url("../images/thu2.jpg");
+    float: left;
+    margin:  20px 20px 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: width 2s;
+}
+
+.ndung9 
+{
+  position: relative;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+	background-image: url( "../images/thu4.jpg");
+    float: left;
+    margin:  20px 20px 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: width 2s;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width:230px;
+  height: 60px;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+border-radius: 20px;
+}
+
+.text1 {
+  color:tomato;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.ndung6:hover .overlay1 {
+  opacity: 1;
+}
+
+.ndung7:hover .overlay1 {
+  opacity: 1;
+}
+
+.ndung8:hover .overlay1 {
+  opacity: 1;
+}
+
+.ndung9:hover .overlay1 {
+  opacity: 1;
+}
+
+/* footer */
+
+.footer
+{
+    width: 100%;
+    height: 330px;
+    background-color:darksalmon;
+    display: flex;
+    justify-content: center;
+}
+.footer1 {
+    width: 80%;
+    height: 330px;
+    float: left;
+    padding: 25px 30px 20px 100px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
